@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @CucumberOptions(
         features={"src/test/java/com/management/hotelbooking/features"},
         glue={"com/management/hotelbooking/config","com/management/hotelbooking/stepdefinitions"},
-        plugin={"pretty", "json::target/cucumber-reports/cucumber-report.json",
+        plugin={"pretty", "json:target/cucumber-reports/cucumber-report.json",
                 "junit:target/cucumber-reports/cucumber.xml",
                 "html:target/cucumber-reports/report.html"},
         monochrome = true
