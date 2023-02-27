@@ -9,3 +9,7 @@ Pre-requisites
 How to Run Tests
 ------------------
 Enter "mvn clean test" to run tests
+
+Reports
+-------
+Check target folder to view Cucumber reports
